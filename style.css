@@ -18,7 +18,7 @@ h1 {
     font-size: 70px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-shadow: 2px 2px 4px rgba(18, 18, 18, 0.3);
 
 }
@@ -36,4 +36,25 @@ h1 {
 
 .btn:hover {
     filter: brightness(0.8);
+}
+
+.active.container {
+    filter: blur(5px) brightness(70%);
+}
+
+.popup-container {
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
