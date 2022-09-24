@@ -101,5 +101,9 @@ label {
 
 .close-icon:hover {
     color: orangered;
-    
+
+}
+
+.active.popup-container {
+    visibility: hidden;
 }
